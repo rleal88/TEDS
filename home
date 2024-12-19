@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home</title>
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="/Content/Styles/Fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/Content/dist/site.css">
+    <link rel="stylesheet" href="/Content/Styles/Core/font-awesome/css/font-awesome.min.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" type="text/css" href="/Content/dist/IE8Fix/ie8fix.css" />
+        <script src="/Content/dist/IE8Fix/modernizr-2.6.2.js"></script>
+        <script src="/Content/dist/IE8Fix/respond.js"></script>
+        <script src="/Content/dist/IE8Fix/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if IE 9]>
+        <link rel="stylesheet" type="text/css" href="/Content/ie9.css" />
+    <![endif]-->
+
+    <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-74622012-1', 'auto');
+	ga('send', 'pageview');
+    </script>
+
+</head>
+<body >
+            <div class="cookie-banner">
+            <div class="cookie-inner">
+                <h3>Cookies Policy</h3>
+                <p>This site uses cookies to improve performance and enhance your user experience. Please refer to our Privacy policy for further information. By using our website, you agree that we can place these types of cookies on your device.</p>
+                <a id="aCookiesAccepted" class="btn btn-primary">OK</a>
+            </div>
+        </div>
+
+    <nav class="fixed">
+    <div id="divSiteHeader">
+        <a class="aSiteLogo" href="/">
+        <img id="imgSiteLogo" src="/Content/Images/TEDSlogo.png" alt="site logo"/>
+        </a>
+            <button type="button" id="btnNavbarToggle" class="initial">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <ul id="ulTopNav">
+                        <li class="active-page ">
+                            <a href="/index">Home</a>
+                        </li>
+                        <li class=" ">
+                            <a href="/about-teds">About TEDS</a>
+                        </li>
+                        <li class=" ">
+                            <a href="/researchers">Researchers</a>
+                        </li>
+                        <li class=" ">
+                            <a href="/news">News</a>
+                        </li>
+                        <li class=" ">
+                            <a href="/participants">Participants</a>
+                        </li>
+                        <li class=" ">
+                            <a href="/co-teds">CoTEDS</a>
+                        </li>
+                        <li class=" ">
+                            <a href="/contact-us">Contact Us</a>
+                        </li>
+
+            </ul>
+        <!--<a class="aLogin" href="/teds-21-login"><i class="fa fa-sign-in"></i> TEDS 21 LOGIN</a>-->
+</div>
+
+        <ul id="ulMobileNav">
+                    <li class="active-page  ">
+                        <a href="/index">Home  </a>
+                    </li>
+                    <li class=" parent-item ">
+                        <a href="/about-teds">About TEDS  <i class='fa fa-caret-right'></i></a>
+                            <ul class="section-menu">
+                                <li class="menu-back">
+                                    <a href="/"><i class="fa fa-caret-left"></i> Back</a>
+                                </li>
+                                <li class="parent-link   ">
+                                    <a href="/about-teds">About TEDS</a>
+                                </li>
+                                    <li class=" "><a data-anchor="" href="/about-teds/teds-team">TEDS Team</a></li>
+                                    <li class=" "><a data-anchor="" href="/about-teds/privacy">Privacy</a></li>
+                            </ul>
+                    </li>
+                    <li class=" parent-item ">
+                        <a href="/researchers">Researchers  <i class='fa fa-caret-right'></i></a>
+                            <ul class="section-menu">
+                                <li class="menu-back">
+                                    <a href="/"><i class="fa fa-caret-left"></i> Back</a>
+                                </li>
+                                <li class="parent-link   ">
+                                    <a href="/researchers">Researchers</a>
+                                </li>
+                                    <li class=" "><a data-anchor="" href="/researchers/scientific-publications">Scientific Publications</a></li>
+                                    <li class=" "><a data-anchor="" href="/researchers/publication-resources">Publication Resources</a></li>
+                                    <li class=" "><a data-anchor="" href="/researchers/teds-data-access-policy">TEDS Data Access Policy</a></li>
+                            </ul>
+                    </li>
+                    <li class=" parent-item ">
+                        <a href="/news">News  <i class='fa fa-caret-right'></i></a>
+                            <ul class="section-menu">
+                                <li class="menu-back">
+                                    <a href="/"><i class="fa fa-caret-left"></i> Back</a>
+                                </li>
+                                <li class="parent-link   ">
+                                    <a href="/news">News</a>
+                                </li>
+                                    <li class=" "><a data-anchor="" href="/news/newsletters">Newsletters</a></li>
+                                    <li class=" "><a data-anchor="" href="/news/teds-videos">Research Videos</a></li>
+                                    <li class=" "><a data-anchor="" href="/news/infographics">Infographics</a></li>
+                                    <li class=" "><a data-anchor="" href="/news/media-enquiries">Media Enquiries</a></li>
+                            </ul>
+                    </li>
+                    <li class=" parent-item ">
+                        <a href="/participants">Participants  <i class='fa fa-caret-right'></i></a>
+                            <ul class="section-menu">
+                                <li class="menu-back">
+                                    <a href="/"><i class="fa fa-caret-left"></i> Back</a>
+                                </li>
+                                <li class="parent-link   ">
+                                    <a href="/participants">Participants</a>
+                                </li>
+                                    <li class=" "><a data-anchor="" href="/participants/prize-draw-winners">Prize Draw Winners</a></li>
+                                    <li class=" "><a data-anchor="" href="/participants/genetics">Genetics</a></li>
+                                    <li class=" "><a data-anchor="" href="/participants/faq">FAQ</a></li>
+                                    <li class=" "><a data-anchor="" href="/participants/support">Support</a></li>
+                                    <li class=" "><a data-anchor="" href="/participants/tedspromise">The TEDS Promise</a></li>
+                                    <li class=" "><a data-anchor="" href="/participants/medical-record-linkages">Medical Record Linkage</a></li>
+                            </ul>
+                    </li>
+                    <li class="  ">
+                        <a href="/co-teds">CoTEDS  </a>
+                    </li>
+                    <li class="  ">
+                        <a href="/teds-21-login">TEDS 21 LOGIN  </a>
+                    </li>
+                    <li class="  ">
+                        <a href="/contact-us">Contact Us  </a>
+                    </li>
+
+           
+        </ul>
+
+</nav>
+    <div class="divPageContainer">   
+        
+<div class="row">
+        <div id="divCarouselWrapper" data-autoscroll="True" data-scrolltime="3000">
+        <ul class="ulSlides">
+
+
+<li style="background:url(/CMSUploads/) center center  no-repeat #48acc6">
+    <div class="slideContent">
+        <p style="text-align: center;"><img alt="" src="../CMSUploads/TEDS BLUE HOME PAGE BANNERS.png" style="width: 1200px; height: 276px;" /></p>
+
+    </div>
+</li>
+
+<li style="background:url(/CMSUploads/) center center  no-repeat #48acc6">
+    <div class="slideContent">
+        <p><img alt="" src="../CMSUploads/TEDS HOME PAGE BANNERS (5).png" style="width: 1200px; height: 276px;" /></p>
+
+    </div>
+</li>
+
+<li style="background:url(/CMSUploads/) center center  no-repeat #48acc6">
+    <div class="slideContent">
+        <p style="text-align: center;"><img alt="" src="../CMSUploads/Home page banner 2 curveorange.png" style="width: 1200px; height: 276px;" /></p>
+
+    </div>
+</li>        </ul>
+
+
+        
+    </div>
+    <ul class="ulJumpTo">
+                <li class="active" data-slide="0"></li>
+                <li class="" data-slide="1"></li>
+                <li class="" data-slide="2"></li>
+
+    </ul>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="columns six">
+            
+<p>&nbsp;</p>
+
+<p><img alt="" src="../CMSUploads/TEDS MRC Figure 17 May.png" style="width: 100%;" /></p>
+
+    <h1>TEDS Medical Record Linkage information page:</h1>
+<p><span style="font-size:16px;"><a href="https://www.teds.ac.uk/participants/medical-record-linkages">https://www.teds.ac.uk/participants/medical-record-linkages</a></span></p>
+
+        </div>
+        <div class="columns six">
+            
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">The Twins Early Development Study (TEDS), is one of the world&rsquo;s largest twin cohorts, investigating how genetic and environmental factors shape individual differences in cognitive and learning abilities, behaviour and emotions in the context of typical development.</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><a href="http://www.teds.ac.uk/participants"><img alt="" src="../CMSUploads/partici-recolour.png" style="width: 189px; height: 170px;" /></a><a href="http://www.teds.ac.uk/researchers"><img alt="" src="../CMSUploads/research-recolour.png" style="width: 189px; height: 171px;" /></a><a href="http://www.teds.ac.uk/news"><img alt="" src="../CMSUploads/news-recolour.png" style="width: 189px; height: 172px;" /></a></p>
+
+        </div>
+    </div>
+</div>
+    </div>
+    
+<footer>
+
+<div class="divKingsFooter">
+    <div class="inner">
+        <ul class="ulSocialMedia">
+            <a target="_blank" href="https://www.facebook.com/TedsProject"><li><i class="fa fa-facebook"></i></li></a>
+            <a target="_blank" href="https://twitter.com/TedsProject"><li><i class="fa fa-twitter"></i></li></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UChC9XuSC4l40nA40kEcDMzQ"><li><i class="fa fa-youtube"></i></li></a>
+</ul>
+
+        <ul id="ulFooterNav">
+                    <li><a href="/index">Home</a></li>|                    <li><a href="/about-teds">About TEDS</a></li>|                    <li><a href="/about-teds/privacy">Privacy</a></li>|                    <li><a href="/researchers">Researchers</a></li>|                    <li><a href="/researchers/scientific-publications">Scientific Publications</a></li>|                    <li><a href="/researchers/teds-data-access-policy">TEDS Data Access Policy</a></li>|                    <li><a href="/contact-us">Contact Us</a></li>
+        </ul>
+
+        <h2>Want to know more about TEDS?</h2>
+		<p class="contact">Contact TEDS on Freephone 0800 317029</p>
+        <a href="/contact-us">Or get in touch with us here</a>
+        <img class="kings-college-logo" src="/Content/Images/KCL-logo.png">
+    </div>
+</div>
+
+    <p class="copyright">
+        <i class="fa fa-copyright"></i> Copyright King's College London 2024
+    </p>
+</footer>
+
+    <script src="/Content/dist/site.js"></script>
+
+    
+</body>
+</html>
